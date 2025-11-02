@@ -67,8 +67,7 @@ Controller input. It is capable of either input or output from / to the Controll
 To send output, the PSG's configuration must be changed. To receive input, it must be changed back. Furthermore,
 the CPU does not communicate directly with the PSG, but instead interfaces through the VIA 6522 chip.
 
-All of this results in a somewhat convoluted "magic rain dance" to toggle between sending (the high part
-of) the PWM periodic signal to the 3D Imager and reading player inputs.
+All of this results in a somewhat convoluted "magic rain dance" to toggle between sending the PWM periodic signal to the 3D Imager and reading player inputs.
 This is captured in the **config_PSG_output** and **config_PSG_input** subroutines.
 
 To get the 3D Imager started spinning, a relatively simple loop (the **sync_fail** branch of the **Wait_Sync** subroutine)
