@@ -17,7 +17,7 @@ Binary assembled from source using sbasm: https://www.sbprojects.net/sbasm/
 
 A 3D Imager is expected to be plugged into Controller Port 2, and is expected to have the "Narrow Escape" color wheel loaded.
 
-After an initial synchronization period, a purple triangle should appear on screen.
+After an initial synchronization period, a blue triangle should appear on screen.
 
 Holding down Button 1 allows the Red color intensity to be adjusted up or down with the joystick.
 
