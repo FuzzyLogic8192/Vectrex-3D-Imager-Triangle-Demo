@@ -5,7 +5,7 @@
 This is an early test program that I wrote while learning to control the 3D Imager. It is presented as a "Hello World!"-style
 example of basic 3D Imager operation. 
 
-The demo spins the 3D Imager at a stable rate of 30 RPM and draws a simple triangle on screen. The color and apparent depth of the triangle are
+The demo spins the 3D Imager at a stable rate of 30 Hz and draws a simple triangle on screen. The color and apparent depth of the triangle are
 adjustable with the Controller.
 
 Note that this program was developed using the Madtronix reproduction of the 3D Imager. I have not tested it with an official 3D Imager.
